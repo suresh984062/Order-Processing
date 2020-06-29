@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OrderProcessingApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OrderProcessingApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessingApplication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderProcessingApplication/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessingApplication/OrderProcessingApplication.csproj",
+      "msbuildProject": "../OrderProcessingApplication/OrderProcessingApplication.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "OrderProcessingApplication >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sgottipati\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sgottipati\\Desktop\\OrderProcessingApplication-master\\OrderProcessingApplication-master\\OderProcessingUnitTest\\OderProcessingUnitTest.csproj",
+      "projectName": "OderProcessingUnitTest",
+      "projectPath": "C:\\Users\\sgottipati\\Desktop\\OrderProcessingApplication-master\\OrderProcessingApplication-master\\OderProcessingUnitTest\\OderProcessingUnitTest.csproj",
+      "packagesPath": "C:\\Users\\sgottipati\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sgottipati\\Desktop\\OrderProcessingApplication-master\\OrderProcessingApplication-master\\OderProcessingUnitTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sgottipati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\sgottipati\\Desktop\\OrderProcessingApplication-master\\OrderProcessingApplication-master\\OrderProcessingApplication\\OrderProcessingApplication.csproj": {
+              "projectPath": "C:\\Users\\sgottipati\\Desktop\\OrderProcessingApplication-master\\OrderProcessingApplication-master\\OrderProcessingApplication\\OrderProcessingApplication.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
